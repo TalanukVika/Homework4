@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персонажі</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="character" id="ichigo">
+        <img src="images/ichigo.jpg" alt="Ічиґо">
+        <h2>Ічиґо Куросакі</h2>
+        <p>Ічиґо — головний герой "Bleach", шініґамі, який захищає людей від духів-монстрів.</p>
+        <a href="#itachi" class="next-button">Перейти до Ітачі</a>
+    </div>
+
+    <div class="character" id="itachi">
+        <img src="images/itachi.jpg" alt="Ітачі">
+        <h2>Ітачі Учіха</h2>
+        <p>Ітачі — загадковий герой із "Naruto", який пожертвував усім заради миру.</p>
+        <a href="#saitama" class="next-button">Перейти до Сайтами</a>
+    </div>
+
+    <div class="character" id="saitama">
+        <img src="images/saitama.jpg" alt="Сайтама">
+        <h2>Сайтама</h2>
+        <p>Сайтама — супергерой із "One Punch Man", який перемагає ворогів одним ударом.</p>
+        <a href="#pikachu" class="next-button">Перейти до Пікачу</a>
+    </div>
+
+    <div class="character" id="pikachu">
+        <img src="images/pikachu.jpg" alt="Пікачу">
+        <h2>Пікачу</h2>
+        <p>Пікачу — культовий покемон, найкращий друг Еша з "Pokemon".</p>
+        <a href="#gojo" class="next-button">Перейти до Сатору Ґоджо</a>
+    </div>
+
+    <div class="character" id="gojo">
+        <img src="images/gojo.jpg" alt="Сатору Ґоджо">
+        <h2>Сатору Ґоджо</h2>
+        <p>Сатору — надпотужний чаклун із "Jujutsu Kaisen". Його сила вражає уяву.</p>
+        <a href="#elric" class="next-button">Перейти до братів Елріків</a>
+    </div>
+
+    <div class="character" id="elric">
+        <img src="images/elric.jpg" alt="Брати Елріки">
+        <h2>Брати Елріки</h2>
+        <p>Едвард і Альфонс Елріки — алхіміки, які прагнуть повернути свої тіла в "Fullmetal Alchemist".</p>
+        <a href="#ichigo" class="next-button">Повернутися до Ічиґо</a>
+    </div>
+
+    <a href="#ichigo" class="to-top">На початок сторінки</a>
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.character {
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    background: #fff;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.character h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.character p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.next-button:hover {
+    background: #0056b3;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.to-top:hover {
+    background: #218838;
+}
+
+</body>
+</html>
+
